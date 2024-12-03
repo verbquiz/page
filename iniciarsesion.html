@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+	<title>Verb Quiz</title>
+	<!-- <script>
+	 let usuario = "";
+	let contraseña  = "";
+	// Función para crear una cuenta
+	function crearcuenta() {
+	    if (contraseña < 10){
+	        alert("tienen que ser 10 digitos")
+	    } else{
+	        alert("Cuenta Creada Con Exito")
+	    }
+
+	// Función para iniciar sesión
+	function showAlert() {
+	  alert("has iniciado sesion");
+	}
+    </script>  -->
+</head>
+<body background="img/fondo.jpg">
+	<h1>Iniciar Sesion</h1>
+	<form action="form.php" method="POST">
+		<legend>Inicia Sesion</legend>
+		<br/>
+		<label for="nombre">Nombre de usuario:</label>
+		<input type="text" name="nombre" id="nombre" required="yes" placeholder="Nombre de usuario" />
+		<hr/>
+		<label for="password">Contraseña</label>
+		<input type="password" name="password" id="password" required="yes" maxlength="10" placeholder="Maximo 10 carateres"   />
+		<hr/>
+		<input type="radio" name="alternar" id="mostrar">Mostrar contraseña</input>
+		<br/>
+		<br/>
+		<input type="submit" name="enviar" value="Enviar">	    
+	</form>
+    <a href="index.html"><img src="img/devolver.png"></a>
+ 
+</body>
+</html>

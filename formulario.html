@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+	<title>Verb Quiz</title>
+</head>
+<body background="img/fondo.jpg">
+	<h1>Llena lo siguiente</h1>
+	<form action="form.php" method="POST">
+		<legend>Crea un usuario</legend>
+		<br/>
+		<label for="nombre">Nombre:</label>
+		<input type="text" name="nombre" id="nombre" required="yes" placeholder="Pon tu nombre" />
+		<hr/>
+		<label for="usuario">Nombre de usuario:</label>
+		<input type="text" name="usuario" id="usuario" required="yes" placeholder="Crea tu nombre de usuario" />
+		<hr/>
+		<label for="correo">Correo de usuario:</label>
+		<input type="mail" name="correo" id="correo" required="yes" placeholder="Pon tu correo" />
+		<hr/>
+		<label for="telefono">Telefono de usuario:</label>
+		<input type="int" name="telefono" id="telefono" required="yes" placeholder="Pon tu telefono" />
+		<hr/>
+		<label for="password">Contraseña</label>
+		<input type="password" name="password" id="password" required="yes" maxlength="10" placeholder="Maximo 10 carateres"   />
+		<hr/>
+		<label for="confirmar">Confirmar contraseña</label>
+		<input type="password" name="confirmar" id="confirmar" required="yes"  maxlength="10" placeholder="Confirma tu contraseña" />	
+		<br/>
+		<input type="radio" name="alternar" id="mostrar">Mostrar contraseña</input>
+		<br/>
+		<br/>
+		<input type="submit" name="insertar" value="Enviar">
+	    
+	</form>
+    <a href="index.html"><img src="img/devolver.png"></a>
+</body>
+</html>

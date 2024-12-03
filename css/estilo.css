@@ -1,0 +1,73 @@
+body{
+	background-size: 100%;
+  font-size: 20px;
+}
+button{
+    display: block;
+    margin: auto;
+    padding: 1em 2em;
+    background: #f5cba7;
+    color: black;
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid #f5cba7;
+    outline-offset: 3px;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Times, sans-serif;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 70px;
+}
+a{
+    color: blue;
+}
+img{
+    height: 50px;
+    width: auto;
+}
+form{
+    text-align: center;
+}
+hr{
+    width: 25%;
+}
+.logo{
+    text-align: center;
+}
+.imglogo{
+    height: auto;
+    width: 400px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: transparent; 
+}
+.navbar a {
+  float: right;
+  font-size: 16px; 
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  background-color: #f5cba7;
+}
+.tabbot{
+  margin: auto;
+}
+p{
+  text-align: center;
+  font-family: Times, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}

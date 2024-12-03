@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+	<title>Verb Quiz</title>
+	<script src="js/jsi.js"></script>
+</head>
+<body background="img/fondo.jpg">
+    <h1>Verbos en Forma Base de Ingles a Español</h1>
+    <p id="verbos"></p>
+    <table class="tabbot">
+    	<tbody>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Ser/Estar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Llegar a Ser</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Empezar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Morder</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Traer</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Romper</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Construir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Comprar</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Venir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Cortar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Elegir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Soñar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Hacer</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Dibujar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Beber</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Manejar</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Comer</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Sentir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Alimentar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Pelear</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Encontrar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Olvidar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Perdonar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Obtener</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Dar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Ir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Tener</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Esconder</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Golpear</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Herir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Mantener</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Saber</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Salir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Prestar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Permitir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Perder</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Hacer</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Significar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Conocer</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Pagar</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Poner</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Leer</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Montar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Correr</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Decir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Ver</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Vender</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Enviar</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Poner</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Disparar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Cerrar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Cantar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Sentarse</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Dormir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Deslizar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Hablar</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Acelerar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Gastar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Robar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Sudar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Nadar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Tomar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Enseñar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Decir</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Pensar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Entender</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Despertar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Llevar puesto</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Ganar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Mojar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Escribir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Aceptar</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Intentar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Esperar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Necesitar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Repetir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Empezar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Visitar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Esperar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Querer</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Preguntar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Cocinar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Bailar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Vestir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Borrar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Terminar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Ayudar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Saltar</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Gustar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Mirar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Extrañar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Practicar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Empujar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Detener</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Hablar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Usar</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Caminar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Lavar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Trabajar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Responder</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Llegar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Pertenecer</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Cambiar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Limpiar</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Cerrar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Entregar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Disfrutar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Llenar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Seguir</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Aprender</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Escuchar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Abrir</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Jalar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Jugar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Recordar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Mostrar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Permanecer</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Estudiar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Viajar</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Intentar</button>
+    			</td>
+    		</tr>
+    	</tbody>
+    </table>	
+	<a href="tiempoiae.html"><img src="img/devolver.png"></a>
+</body>
+</html>

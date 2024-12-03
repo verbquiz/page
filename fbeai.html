@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+	<title>Verb Quiz</title>
+	<script href="js/js.js"></script>
+</head>
+<body background="img/fondo.jpg">
+    <h1>Verbos en Forma Base de Español a Ingles</h1>
+    <p><strong>Verbo:</strong> <span id="verbo">---</span></p>
+    <p>Buenas: <span id="contadorBuenas">0</span></p>
+    <p>Malas: <span id="contadorMalas">0</span></p>
+    <table class="tabbot">
+    	<tbody>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Be/ am, are, is</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Become</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton" >Begin</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Bite</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Bring</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Break</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Build</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Buy</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Come</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Cut</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Choose</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Dream</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Do</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Draw</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Drink</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Drive</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Eat</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Feel</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Feed</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Fight</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Find</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Forget</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Forgive</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Get</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Give</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Go</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Have</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Hide</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Hit</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Hurt</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Keep</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Know</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Leave</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Lend</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Let</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Lose</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Make</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Mean</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Meet</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Pay</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Put</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Read</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Ride</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Run</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Say</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">See</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Sell</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Send</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Set</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Shoot</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Shut</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Sing</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Sit</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Sleep</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Slide</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Speak</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Speed</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Spend</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Steal</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Sweat</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Swim</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Take</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Teach</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Tell</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Think</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Understand</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Wake</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Wear</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Win</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Wet</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Write</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Accept</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Intend</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Expect</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Need</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Repeat</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Start</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Visit</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Wait</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Want</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Ask</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Cook</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Dance</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Dress</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Erase</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Finish</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Help</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Jump</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Like</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Look</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Miss</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Practice</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Push</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Stop</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Talk</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Use</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Walk</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Wash</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Work</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Answer</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Arrive</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Belong</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Change</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Clean</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Close</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Deliver</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Enjoy</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Fill</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Follow</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Learn</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Listen</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Open</button>
+    			</td>
+    		</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>&nbsp;</tr>
+    		<tr>
+    			<td>
+    				<button class="showVerbButton">Pull</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Play</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Remember</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Show</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Stay</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Study</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Travel</button>
+    			</td>
+    			<td>&nbsp;</td>
+    			<td>
+    				<button class="showVerbButton">Try</button>
+    			</td>
+    		</tr>
+    	</tbody>
+    </table>
+	<a href="tiempoeai.html"><img src="img/devolver.png"></a>
+	<script src="js/js.js"></script>
+</body>
+</html>
